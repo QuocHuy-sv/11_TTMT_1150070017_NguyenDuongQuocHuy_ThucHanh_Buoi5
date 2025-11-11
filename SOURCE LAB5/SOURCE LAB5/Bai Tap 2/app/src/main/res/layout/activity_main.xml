@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent" android:layout_height="56dp"
+        android:background="@color/purple_600"
+        android:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="12dp">
+
+            <LinearLayout
+                android:id="@+id/rowMom"
+                android:layout_width="match_parent" android:layout_height="64dp"
+                android:background="@drawable/bg_item_mom"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp" android:paddingEnd="12dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="28dp" android:layout_height="28dp"
+                    android:src="@drawable/ic_phone"/>
+
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/mom"
+                    android:textColor="@color/title" android:textStyle="bold" android:textSize="18sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rowDad"
+                android:layout_width="match_parent" android:layout_height="64dp"
+                android:background="@drawable/bg_item_dad"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp" android:paddingEnd="12dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="28dp" android:layout_height="28dp"
+                    android:src="@drawable/ic_phone"/>
+
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/dad"
+                    android:textColor="@color/title" android:textStyle="bold" android:textSize="18sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rowCrush"
+                android:layout_width="match_parent" android:layout_height="64dp"
+                android:background="@drawable/bg_item_crush"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp" android:paddingEnd="12dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="28dp" android:layout_height="28dp"
+                    android:src="@drawable/ic_phone"/>
+
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/crush"
+                    android:textColor="@color/white" android:textStyle="bold" android:textSize="18sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rowBest"
+                android:layout_width="match_parent" android:layout_height="64dp"
+                android:background="@drawable/bg_item_best"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp" android:paddingEnd="12dp">
+
+                <ImageView
+                    android:layout_width="28dp" android:layout_height="28dp"
+                    android:src="@drawable/ic_phone"/>
+
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/best_friend"
+                    android:textColor="@color/title" android:textStyle="bold" android:textSize="18sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

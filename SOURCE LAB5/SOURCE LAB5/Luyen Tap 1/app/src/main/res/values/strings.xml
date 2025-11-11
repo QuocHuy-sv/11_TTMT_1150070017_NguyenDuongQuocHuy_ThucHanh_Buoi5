@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Face Animation</string>
+    <string name="title">Face Animation</string>
+    <string name="alpha">ALPHA</string>
+    <string name="scale">SCALE</string>
+    <string name="trans">TRANS</string>
+    <string name="rotate">ROTATE</string>
+</resources>

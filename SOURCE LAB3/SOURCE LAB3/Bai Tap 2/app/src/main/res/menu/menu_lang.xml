@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnu_lang"
+        android:title="@string/menu_language"
+        android:showAsAction="never">
+        <menu>
+            <item android:id="@+id/mnu_vi" android:title="@string/menu_vi"/>
+            <item android:id="@+id/mnu_en" android:title="@string/menu_en"/>
+            <item android:id="@+id/mnu_fr" android:title="@string/menu_fr"/>
+        </menu>
+    </item>
+</menu>
