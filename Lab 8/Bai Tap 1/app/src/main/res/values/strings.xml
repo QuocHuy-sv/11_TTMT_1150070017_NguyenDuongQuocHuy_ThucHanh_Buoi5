@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DrawableExample</string>
+    <string name="title_custom_button">Custom Button</string>
+    <string name="title_selectors">Selectors</string>
+    <string name="title_shapes_selectors">Shapes+Selectors</string>
+    <string name="btn_colored_selector">COLORED SELECTOR</string>
+    <string name="btn_color_selector">COLOR SELECTOR</string>
+    <string name="btn_round_shape">ROUND SHAPE</string>
+    <string name="btn_gradient_shape">SHAPE w/ GRADIENT</string>
+    <string name="btn_selector_shape">SELECTOR SHAPE</string>
+    <string name="made_by">Made by Nguyen Duong Quoc Huy</string>
+</resources>

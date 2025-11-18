@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="primary">#FF9800</color>
-    <color name="primary_dark">#F57C00</color>
-    <color name="white">#FFFFFF</color>
-    <color name="bg">#FFF3D6</color>
-    <color name="emoji_yellow">#FFE082</color>
-    <color name="emoji_border">#FFB300</color>
-</resources>

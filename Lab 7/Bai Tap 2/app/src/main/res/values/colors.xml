@@ -1,0 +1,26 @@
+<resources>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="btnGreen">#4CAF50</color>
+    <color name="btnGreenDark">#388E3C</color>
+    <color name="btnGray">#BDBDBD</color>
+    <color name="btnBlue">#03A9F4</color>
+    <color name="btnBlueDark">#0288D1</color>
+    <color name="btnOrange">#FF9800</color>
+    <color name="btnOrangeDark">#F57C00</color>
+    <color name="emojiYellow">#FFEB3B</color>
+    <color name="emojiYellowDark">#FBC02D</color>
+    <color name="cyanLight">#00BCD4</color>
+    <color name="cyanDark">#0097A7</color>
+    <color name="yellowBright">#FFEB3B</color>
+    <color name="yellowDark">#FBC02D</color>
+    <color name="orangeStart">#FFCC80</color>
+    <color name="orangeEnd">#FF9800</color>
+    <color name="redNormal">#F44336</color>
+    <color name="redDark">#D32F2F</color>
+</resources>
