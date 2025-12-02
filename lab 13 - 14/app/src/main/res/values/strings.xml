@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NguyenDuongQuocHuyLab</string>
+
+    <!-- REGISTER SCREEN -->
+    <string name="register_title">Đăng ký</string>
+    <string name="fullname">Họ và tên</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="have_acc">Đã có tài khoản?</string>
+    <string name="login">Đăng nhập</string>
+
+    <!-- LOGIN SCREEN (nếu dùng chung) -->
+    <string name="login_title">Đăng nhập</string>
+    <string name="forgot">Quên mật khẩu?</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="no_acc">Chưa có tài khoản?</string>
+    <string name="register">Đăng ký</string>
+
+    <!-- Toast -->
+    <string name="field_required">Vui lòng nhập đầy đủ thông tin</string>
+
+</resources>
